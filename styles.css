@@ -5,12 +5,27 @@ body {
 
 .section1 {
     background-color: #1F2937;
+
+}
+
+.section1 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1 .content {
+    display: flex;
 }
 
 .section2 {
     display: flex;
     align-items: center;
     flex-flow: column;
+}
+
+.section2 .image-sets {
+    display: flex;
 }
 
 .section3 {
