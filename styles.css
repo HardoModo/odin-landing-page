@@ -15,6 +15,10 @@ body {
 
 .section3 {
     background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
 }
 
 .section4 {
