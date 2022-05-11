@@ -1,9 +1,13 @@
+body {
+    display: flex;
+    flex-flow: column;
+}
+
 .section1 {
     background-color: #1F2937;
 }
 
 .section2{
-
 }
 
 .section3{
@@ -11,9 +15,12 @@
 }
 
 .section4{
-
 }
 
 .footer{
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
