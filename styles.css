@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-flow: column;
+    margin: 0;
 }
 
 .section1 {
@@ -93,6 +94,11 @@ color: white;
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
+
+/*.left-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+}*/
