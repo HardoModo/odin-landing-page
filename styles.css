@@ -1,8 +1,6 @@
-div,
-p,
-b {
+/* {
     outline: medium solid red;
-}
+} */
 
 body {
     display: flex;
@@ -24,12 +22,22 @@ body {
     padding-bottom: 50px;
 }
 
-.section1 .content {
+.header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.left-content,
+.right-content {
     height: 200px;
-    width: 300px;
+    width: 200px;
+}
+
+.right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2 {
