@@ -7,20 +7,38 @@ body {
     background-color: #1F2937;
 }
 
-.section2{
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 
-.section3{
+.section3 {
     background-color: #E5E7EB;
 }
 
-.section4{
+.section4 {
+    display: flex;
+    justify-content: center;
 }
 
-.footer{
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer {
     background-color: #1F2937;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+b {
+background-color: #3882F6;
+color: white;
 }
