@@ -1,3 +1,9 @@
+div,
+p,
+b {
+    outline: medium solid red;
+}
+
 body {
     display: flex;
     flex-flow: column;
@@ -6,6 +12,8 @@ body {
 .section1 {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    flex-flow: column;
     padding: 0px 100px 50px 100px;
 }
 
@@ -13,10 +21,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .section1 .content {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 300px;
 }
 
 .section2 {
