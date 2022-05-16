@@ -88,9 +88,12 @@ body {
     justify-content: center;
 }
 
-b {
+button {
 background-color: #3882F6;
 color: white;
+border-radius: 7px;
+border: 1px solid white;
+padding: 4px 20px 4px 20px;
 }
 
 a {
